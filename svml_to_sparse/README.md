@@ -29,5 +29,5 @@ python graphlet_svml_to_sparse.py <path_to_svml_dir> <path_to_results_dir>
 ```
 
 Where:
-- `<path_to_svml_dir>` is the directory containing the `.svml` files.
-- `<path_to_results_dir>` is the directory where the resulting `.npz` matrix file will be saved.
+- `<path_to_svml_dir>` is the directory containing the `.svml` files. They should be named 
+- `<path_to_results_dir>` is the directory where the resulting `.npz` matrix file will be saved, along with a labels file and optional pdb ids file (useful for per-protein stratification).
