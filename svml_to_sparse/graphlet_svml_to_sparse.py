@@ -36,8 +36,8 @@ residue_idx = 0 # the row of the sparse matrix
 labels = []
 pdb_ids = []
 sparse_feats = {}
-for svml in glob.glob(f'{svml_results_dir}/*_sgk.svml'):
-    pdb_id = svml.split('/')[-1].split('_sgk')[0]
+for svml in glob.glob(f'{svml_results_dir}/*.svml'):
+    pdb_id = svml.split('/')[-1].split('.')[0]
     with open(svml,'r') as f:
         for line in f:
             vals = line.strip().split()
