@@ -23,7 +23,7 @@ This repository provides tools and scripts for working with graphlet kernels fro
    - Refer to `run_example.sh` and the `README.txt` file in `graphlet_kernels_framework_v1.0/graphlet_kernels_v1.0` for additional usage instructions, e.g. label substitution, edge indel, or edit distance kernels.
 
 ## Notes
-- Ensure all dependencies and environment configurations are set up correctly before running the scripts:
+- Ensure all dependencies and environment configurations are set up correctly before running the input file generation:
 ```python
 import numpy as np
 import scipy.sparse as sp
