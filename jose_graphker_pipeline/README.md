@@ -6,7 +6,7 @@ This repository provides tools and scripts for working with graphlet kernels fro
 ## Folder Structure
 
 - `pdb_to_sgk_input.ipynb`: A Jupyter Notebook that takes a PDB file as input and creates the required input files for the graphlet kernel. Modify to suit your specific data needs.
-- `graphlet_kernels_framework_v1.0/`: Contains the scripts and resources for generating graphlets.
+- `graphlet_kernels_framework_v1.0/`: Contains Jose's scripts and resources for generating graphlets.
 
 ## Usage once input files are generated
 
